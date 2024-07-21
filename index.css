@@ -1,0 +1,61 @@
+.navbar-container {
+  height: 41px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 160px;
+  height: 41px;
+}
+.navbar {
+  width: 545px;
+  height: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #1f1534;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: 400;
+}
+.navbar-active-button {
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.59px;
+}
+.navbar-button:hover {
+  border-bottom: 2px solid #458ff6;
+}
+
+.logo-initial {
+  width: 41px;
+  height: 41px;
+  color: white;
+  background-color: #458ff6;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 4px;
+  border-radius: 50%;
+  font-family: Muli;
+  font-size: 26px;
+  font-weight: 700;
+}
+.navbar-logo > span {
+  display: inline-block;
+}
+
+.logo-name {
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.12px;
+  margin-left: 10px;
+}
