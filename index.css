@@ -59,3 +59,58 @@
   line-height: 30.12px;
   margin-left: 10px;
 }
+.intro-container {
+  height: 598px;
+  display: flex;
+  margin-top: 70px;
+}
+.intro-card-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-img {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.intro-card {
+  width: 445px;
+  height: 338px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.intro-heading {
+  width: 427px;
+  height: 112px;
+  font-family: Muli;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin: 0;
+}
+.intro-text {
+  width: 445px;
+  height: 96px;
+  font-family: Muli;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7d7987;
+}
+.consult-today-button {
+  width: 200px;
+  height: 56px;
+  background: #458ff6;
+  color: white;
+  border: none;
+  border-radius: 55px;
+  font-family: Muli;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
